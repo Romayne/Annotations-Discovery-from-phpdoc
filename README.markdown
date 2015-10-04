@@ -11,7 +11,7 @@ Integrate the application/bin/MetaDescription/Annotations.class.php into your pr
 Known Issues
 ====================
 
-Within phpdoc it is important to use @ annotation as all lower case with a space following the @ symbol. Files that are being read using Annotations::discover(); should contain a single class definition.
+Within phpdoc it is important to use @ annotation as all lower case with a space following the @ symbol. Files that are being read using Annotations::discover(); should contain a single class definition. Unit tests might not resolve include paths since they were written to run inside phpStorm with a run configuration scope of "directory".  
 
 Copyright and Ownership
 ====================
